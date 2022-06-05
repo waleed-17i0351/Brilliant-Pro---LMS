@@ -38,6 +38,7 @@ body{
 }
 .tab-list {
   background-color: #2f3e4b;
+  /*border-bottom: 2px solid white;*/
 }
 .tableDashboard{
   /*display: block;*/
