@@ -1,6 +1,6 @@
 body{
   /*background-color: #2d3436;*/
-  background-color: #2f3e4b;
+  background-color:#4b6174;
   color: #eee;
 }
 
@@ -37,7 +37,7 @@ body{
   border-width: 1px 1px 0 1px;
 }
 .tab-list {
-  background-color: #2f3e4b;
+  background-color:#4b6174;
   /*border-bottom: 2px solid white;*/
 }
 .tableDashboard{
@@ -99,4 +99,10 @@ body{
   padding: 0.7% 0.7%;
   margin: 1%;
   border: 2.5px solid #d98b8b;
+}
+
+
+/* Admin */
+.Admin>h1{
+  background-color:#59a270;
 }
