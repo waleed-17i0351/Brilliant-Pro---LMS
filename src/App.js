@@ -3,6 +3,8 @@ import Tabs from './components/tabs/Tabs'
 import Stats from './components/Admin/stats.tsx'
 import Course from './components/Admin/course'
 import Learner from './components/Admin/learner'
+import Assessment from './components/Admin/assessments/assesstment';
+import Material from './components/Admin/materials/material';
 function App() {
   return (
     <div className="App">
@@ -18,10 +20,12 @@ function App() {
           <Learner />
         </div>
         <div label="Materials">
-          <p>Material</p>
+          <h2>Materials</h2>
+          <Material />
         </div>
         <div label="Assessments">
-          <p>Assessment</p> 
+          <h2>Assessment</h2> 
+          <Assessment/>
         </div>
         <div label="Stats">
           <h2>Statistics</h2> 
