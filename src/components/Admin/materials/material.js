@@ -36,7 +36,7 @@ export default class Assessment extends React.Component {
             return (
                 <tr key={row.id}>
                     <td>{row.id}</td>
-                    <td className={'tdbrow'}><a href={"./src/components/Admin/materials/" + row.name}>File {row.id+1}</a></td>
+                    <td className={'tdbrow'}><a href={"/public/material_files/" + row.name}>File {row.id+1}</a></td>
                 </tr>
             )
         })
@@ -55,8 +55,8 @@ export default class Assessment extends React.Component {
                         {projectValueTable}
                     </tbody>
                 </table>
-                <button start='button' id='add-btn' onClick={this.onAdd}>Add Learner</button>
-                <button start='button' id='rm-btn' onClick={this.onRemove}>Remove Learner</button>
+                <button start='button' id='add-btn' onClick={this.onAdd}>Add Material</button>
+                <button start='button' id='rm-btn' onClick={this.onRemove}>Remove Material</button>
             </div>
         );
     }

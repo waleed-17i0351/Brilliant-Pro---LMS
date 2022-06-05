@@ -1,5 +1,6 @@
 body{
-  background-color: #2d3436;
+  /*background-color: #2d3436;*/
+  background-color: #2f3e4b;
   color: #eee;
 }
 
@@ -14,6 +15,7 @@ body{
 .tab-list {
   border-bottom: 1px solid #ccc;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .tab-list-item {
@@ -24,13 +26,18 @@ body{
   
 }
 
+.tabs {
+  background-color:#4b6174;
+  height: auto;
+}
+
 .tab-list-active {
-  background-color: #4d5c60;
+  background-color: #4b6174;
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
 }
-.tab-list div {
-  background-color: #e3e3e3;
+.tab-list {
+  background-color: #2f3e4b;
 }
 .tableDashboard{
   /*display: block;*/
@@ -44,8 +51,15 @@ body{
   margin-right: auto;
   text-align: center;
 }
+
+.tableDashboard a:link {
+  color:#89d8ee;
+  text-decoration: none;
+}
+
 .tableDashboard > thead{
   border-bottom: 1.5px solid white;
+  background-color: #445154;
 }
 .tableDashboard > thead > tr > th{
   padding: 1%;
@@ -66,4 +80,22 @@ body{
   
   padding: 2%;
   margin: 2%;
+}
+
+#add-btn{
+  background-color: #59a270;
+  color:white;
+  font-size: 20px;
+  padding: 0.7% 0.7%;
+  margin: 1%;
+  border: 2.5px solid #8bd9a4;
+}
+
+#rm-btn{
+  background-color: #b75050;
+  color:white;
+  font-size: 20px;
+  padding: 0.7% 0.7%;
+  margin: 1%;
+  border: 2.5px solid #d98b8b;
 }

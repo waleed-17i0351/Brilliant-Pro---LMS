@@ -60,7 +60,7 @@ export default class Course extends React.Component {
                             <th>Course</th>
                             <th>Start</th>
                             <th>End</th>
-                            <th>link</th>
+                            <th>Link</th>
                             <th>Description</th>
                         </tr>
                     </thead>

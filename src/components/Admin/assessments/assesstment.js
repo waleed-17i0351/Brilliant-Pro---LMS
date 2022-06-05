@@ -36,7 +36,7 @@ export default class Assessment extends React.Component {
             return (
                 <tr key={row.id}>
                     <td>{row.id}</td>
-                    <td className={'tdbrow'}><a href={row.name}>File {row.id+1}</a></td>
+                    <td className={'tdbrow'}><a href={row.name}>Quiz {row.id+1}</a></td>
                 </tr>
             )
         })
@@ -48,15 +48,15 @@ export default class Assessment extends React.Component {
                     <thead className="tdHead">
                         <tr>
                             <th>ID</th>
-                            <th>File</th>
+                            <th>Assessment</th>
                         </tr>
                     </thead>
                     <tbody>
                         {projectValueTable}
                     </tbody>
                 </table>
-                <button start='button' id='add-btn' onClick={this.onAdd}>Add Learner</button>
-                <button start='button' id='rm-btn' onClick={this.onRemove}>Remove Learner</button>
+                <button start='button' id='add-btn' onClick={this.onAdd}>Add Assessment</button>
+                <button start='button' id='rm-btn' onClick={this.onRemove}>Remove Assessment</button>
             </div>
         );
     }
