@@ -1,6 +1,22 @@
 import { PieChart } from 'react-minimal-pie-chart';
+import React from 'react';
 export default function Stats() {
-
+  /*type LabelRenderProps = {
+    x: number;
+    y: number;
+    dx: number;
+    dy: number;
+    textAnchor: string;
+    dataEntry: {
+      ...props.data[dataIndex];
+      // props.data entry relative to the label extended with:
+      startAngle: number;
+      degrees: number;
+      percentage: number;
+    };
+    dataIndex: number;
+    style: React.CSSProperties;
+  };*/
     return (
         <PieChart
             data={[
@@ -9,9 +25,12 @@ export default function Stats() {
                 { title: 'Learners passed', value: 20, color: '#E1C535' },
                 { title: 'Learners failed', value: 5, color: '#E1A110' },
             ]}
-            radius='10'
+            /*label={(labelRenderProps: LabelRenderProps) =>
+                number | string | React.ReactElement | undefined | null
+              }*/
+            radius={10}
             viewBoxSize={[100,100]}
-            height='30%'
+            
         />
     )
 }

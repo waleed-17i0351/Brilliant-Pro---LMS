@@ -1,6 +1,6 @@
 import './App.css';
 import Tabs from './components/tabs/Tabs'
-import Stats from './components/Admin/stats'
+import Stats from './components/Admin/stats.tsx'
 function App() {
   return (
     <div className="App">
