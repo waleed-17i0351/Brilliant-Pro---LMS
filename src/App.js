@@ -1,6 +1,8 @@
 import './App.css';
 import Tabs from './components/tabs/Tabs'
 import Stats from './components/Admin/stats.tsx'
+import Course from './components/Admin/course'
+import Learner from './components/Admin/learner'
 function App() {
   return (
     <div className="App">
@@ -8,10 +10,12 @@ function App() {
       <h1>Admin Panel</h1>
       <Tabs>
         <div label="Courses">
-          <p>Course</p>
+          <h2>Courses</h2>
+          <Course />
         </div>
         <div label="Learners">
-          <p>Learner</p>
+          <h2>Learners</h2>
+          <Learner />
         </div>
         <div label="Materials">
           <p>Material</p>

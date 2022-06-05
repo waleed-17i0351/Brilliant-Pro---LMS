@@ -7,9 +7,12 @@ body{
   text-align: center;
 }
 
+.App-link {
+  color: #89d8ee;
+}
 
 .tab-list {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
   padding-left: 0;
 }
 
@@ -26,6 +29,41 @@ body{
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
 }
-.tab-list>div {
+.tab-list div {
   background-color: #e3e3e3;
+}
+.tableDashboard{
+  /*display: block;*/
+  border-collapse: collapse;
+  background-color: #4d5c60;
+  width: 90%;
+  /*border: 1.5px solid white;*/
+  border: none;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.tableDashboard > thead{
+  border-bottom: 1.5px solid white;
+}
+.tableDashboard > thead > tr > th{
+  padding: 1%;
+}
+.tableDashboard > tbody > tr{
+  border-bottom: 0.25px solid white;
+}
+
+.tdbrow{  
+  text-align: left;
+  padding: 0.75%;
+  padding-left: 2%;
+}
+
+.footer{
+  color: white;
+  border-top: 2px solid white;
+  
+  padding: 2%;
+  margin: 2%;
 }
